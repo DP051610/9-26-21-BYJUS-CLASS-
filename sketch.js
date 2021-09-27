@@ -6,7 +6,7 @@ function setup() {
 }
 function draw() 
 {
-  background(30);
+  background("orange");
 drawSprites()
 if (keyDown(DOWN_ARROW)){
   box.y = box.y+5
